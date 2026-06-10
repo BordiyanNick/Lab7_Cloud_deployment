@@ -23,11 +23,11 @@
 
 ## Як отримати доступ
 Публічний URL сервісу: 
-`https://devops-231-bordiyan.onrender.com/calculate`
+`https://devops-231-bordiyan.onrender.com`
 
 **Перевірка роботи (через cURL):**
 ```bash
-curl -X POST [https://devops-231-bordiyan.onrender.com/calculate](https://devops-231-bordiyan.onrender.com/calculate) \
+curl -X POST [https://devops-231-bordiyan.onrender.com](https://devops-231-bordiyan.onrender.com) \
      -H "Content-Type: application/json" \
      -d '{"N0": 0.1, "S0": 3.0, "t_max": 40}'
 ```
